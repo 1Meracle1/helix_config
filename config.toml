@@ -1,4 +1,7 @@
-theme = "catppuccin_mocha"
+#theme = "catppuccin_mocha"
+#theme = "catppuccin_macchiato"
+theme = "mellow"
+#theme = "rose_pine_dawn"
 
 [editor]
 line-number = "relative"
@@ -12,3 +15,6 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
+[keys.normal]
+C-u = ["half_page_up", "align_view_center"]
+C-d = ["half_page_down", "align_view_center"]
